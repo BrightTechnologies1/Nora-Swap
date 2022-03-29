@@ -34,10 +34,6 @@ export const ExchangeView = (props: {}) => {
     },
   ];
 
-  <div>
-
-  </div>
-
   const [activeTab, setActiveTab] = useState(tabList[0].key);
 
   const TopBar = (
